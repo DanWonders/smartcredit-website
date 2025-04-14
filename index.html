@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartCredit | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap" rel="stylesheet" />
+</head>
+<body class="home-dark">
+  <div class="wrapper">
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-container">
+        <div class="nav-left">
+          <div class="logo">Smart<span class="accent">Credit</span></div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="log.html">Login</a></li>
+            <li><a href="upload.html">Upload</a></li>
+          </ul>
+        </div>
+        <a href="log.html" class="nav-cta">Get Started</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>Get Funded Instantly Based on Your Hotel Performance</h1>
+          <p>SmartCredit provides instant capital to growing hotels by analyzing your real-time occupancy and revenue data.</p>
+          <a href="log.html" class="cta-button">Get Funded Now</a>
+        </div>
+        <div class="multi-line-graph">
+          <div class="graph-title">YOUR BUSINESS GROWTH</div>
+          <svg viewBox="0 0 300 100" preserveAspectRatio="none">
+            <g class="grid-lines">
+              <line x1="0" y1="0" x2="0" y2="100"/>
+              <line x1="50" y1="0" x2="50" y2="100"/>
+              <line x1="100" y1="0" x2="100" y2="100"/>
+              <line x1="150" y1="0" x2="150" y2="100"/>
+              <line x1="200" y1="0" x2="200" y2="100"/>
+              <line x1="250" y1="0" x2="250" y2="100"/>
+              <line x1="300" y1="0" x2="300" y2="100"/>
+            </g>
+            <path d="M0,90 L50,70 L100,75 L150,55 L200,65 L250,45 L300,30" class="line yellow-line"/>
+            <path d="M0,92 L50,72 L100,73 L150,60 L200,56 L250,48 L300,34" class="line blue-line"/>
+            <path d="M0,94 L50,75 L100,76 L150,62 L200,59 L250,52 L300,38" class="line teal-line"/>
+          </svg>
+          <div class="graph-label">SmartCredit Funding</div>
+          <div class="chart-overlay">
+
+</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Arrow and Divider -->
+    <div class="section-divider sticky-arrow">
+      <div class="arrow">&#x25BC;</div>
+      <hr />
+    </div>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+      <h2 class="section-title">How It Works</h2>
+      <div class="steps-container">
+        <div class="step">
+          <div class="icon">📤</div>
+          <h3>Upload Hotel Data</h3>
+          <p>Log in and upload occupancy, revenue, and room metrics with ease.</p>
+        </div>
+        <div class="step">
+          <div class="icon">🧠</div>
+          <h3>Smart Analysis</h3>
+          <p>We assess location, performance, and experience using our scoring engine.</p>
+        </div>
+        <div class="step">
+          <div class="icon">📈</div>
+          <h3>Risk Score Generated</h3>
+          <p>Receive a real-time score categorized as Low, Medium, or High risk.</p>
+        </div>
+        <div class="step">
+          <div class="icon">💸</div>
+          <h3>Get Funded</h3>
+          <p>Based on the score, get matched with capital and see return simulations.</p>
+        </div>
+      </div>
+    </section>
+    <section class="compare-section">
+      <h2 class="section-title">Compare SmartCredit with Traditional Finance</h2>
+      <div class="compare-cards">
+        <div class="compare-card card-debt">
+          <h3>Debt</h3>
+          <ul>
+            <li>❌ Requires collateral</li>
+            <li>❌ Strict covenants</li>
+            <li>❌ Expensive upfront and hidden fees</li>
+            <li>❌ Administrative burden</li>
+            <li>❌ Early payment penalties</li>
+            <li>❌ High lending rates</li>
+          </ul>
+        </div>
+        <div class="compare-card card-smartcredit">
+          <h3>SmartCredit</h3>
+          <ul>
+            <li>✅ Instant access to funding</li>
+            <li>✅ Fast and simple enrollment</li>
+            <li>✅ Non-dilutive</li>
+            <li>✅ No collateral required</li>
+            <li>✅ Flexible repayments</li>
+            <li>✅ Transparent fees</li>
+            <li>✅ Tailored to hotel needs</li>
+          </ul>
+        </div>
+        <div class="compare-card card-equity">
+          <h3>Equity</h3>
+          <ul>
+            <li>❌ Dilutive</li>
+            <li>❌ Lose control over decision making</li>
+            <li>❌ Expensive capital</li>
+            <li>❌ Long due diligence period</li>
+            <li>❌ Monthly reporting requirements</li>
+            <li>❌ Restricted use of funds</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="why-smartcredit">
+      <h2 class="section-title">Why Choose SmartCredit?</h2>
+      <div class="benefits-grid">
+        
+        <!-- Fast Access -->
+        <div class="benefit-card">
+          <div class="icon-svg">
+            <svg viewBox="0 0 64 64" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 2 L16 36 H30 L18 62 L52 28 H38 L48 2 Z" stroke="#FFD700" stroke-width="3" fill="none">
+                <animate attributeName="stroke-dashoffset" from="100" to="0" dur="1s" repeatCount="indefinite" />
+              </path>
+            </svg>
+          </div>
+          <h3>Lightning Fast Access</h3>
+          <p>Apply in minutes and receive funding within 24 to 48 hours—no long waits or red tape.</p>
+        </div>
+    
+        <!-- Flexible Terms -->
+        
+        <div class="benefit-card">
+          <div class="icon-svg">
+            <svg viewBox="0 0 64 64" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="30" stroke="#00FFFF" stroke-width="3" />
+              <path d="M20 32 C20 20, 44 20, 44 32 C44 44, 20 44, 20 32 Z" fill="#00FFFF">
+                <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="8s" repeatCount="indefinite"/>
+              </path>
+            </svg>
+          </div>
+          <h3>Built to Flex</h3>
+          <p>Use only what you need, when you need it. Our repayment terms bend to your business rhythm.</p>
+        </div>
+    
+        <!-- Founder Friendly -->
+        <div class="benefit-card">
+          <div class="icon-svg">
+            <svg viewBox="0 0 64 64" width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="20" r="10" stroke="#7CFC00" stroke-width="3" fill="none" />
+              <path d="M16 44 C22 36, 42 36, 48 44" stroke="#7CFC00" stroke-width="3" fill="none" />
+              <path d="M24 48 Q32 56, 40 48" stroke="#7CFC00" stroke-width="3" fill="none">
+                <animate attributeName="d" values="
+                  M24 48 Q32 56, 40 48;
+                  M24 48 Q32 60, 40 48;
+                  M24 48 Q32 56, 40 48" dur="2s" repeatCount="indefinite"/>
+              </path>
+            </svg>
+          </div>
+          <h3>Founder Friendly</h3>
+          <p>Keep full control—no equity dilution, no collateral, just capital tailored to hotels like yours.</p>
+        </div>
+    
+      </div>
+    </section>
+    
+    
+    
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-col logo-col">
+          <div class="footer-logo">Smart<span class="accent">Credit</span></div>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Hotel Funding</a></li>
+            <li><a href="#">Room Buyback</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social Media</h4>
+          <ul>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 SmartCredit. All rights reserved.
+      </div>
+    </footer>
+  </div>
+
+  <!-- JavaScript for scroll behavior -->
+  <script>
+    const navbar = document.getElementById("navbar");
+    const divider = document.querySelector(".section-divider");
+
+    window.addEventListener("scroll", () => {
+      const scrollTop = window.scrollY;
+      const dividerMiddle = divider.getBoundingClientRect().top + window.scrollY - window.innerHeight / 2;
+
+      if (scrollTop < 50) {
+        navbar.classList.remove("glassy");
+        navbar.style.opacity = "1";
+      } else if (scrollTop >= dividerMiddle) {
+        navbar.classList.add("glassy");
+        navbar.style.opacity = "1";
+      } else {
+        navbar.style.opacity = "0";
+      }
+    });
+  </script>
+</body>
+</html>
